@@ -1,3 +1,4 @@
+
 ## Como configurar para um grupo no WhatsApp
 Para enviar mensagens para um grupo, você precisa:
 
@@ -28,3 +29,32 @@ const NUMERO_DESTINO = '55XXXXXXXXXXX@c.us';
 // Use o ID do grupo:
 const NUMERO_DESTINO = '120377218757559031@g.us'; // Exemplo de ID de grupo
 ⚠️ Atenção: o número que escaneia o QR precisa ser membro do grupo.
+
+
+
+## Documentação da API
+
+#### Retorna todos os itens
+
+```http
+  GET /api/items
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+
+#### Retorna um item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+
+#### add(num1, num2)
+
+Recebe dois números e retorna a sua soma.
+
