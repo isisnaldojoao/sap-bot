@@ -1,7 +1,7 @@
 ## Como configurar para um grupo no WhatsApp
 Para enviar mensagens para um grupo, você precisa:
 
-🔍 Obter o ID do grupo (chat ID)
+#🔍 Obter o ID do grupo (chat ID)
 A. Temporariamente edite o src/index.ts para listar os chats:
 
 import { startBot } from './bot/whatsapp';
@@ -18,7 +18,7 @@ Rode o projeto (npm run dev)
 
 Aguarde a saída no terminal — ele listará todos os grupos dos quais seu número faz parte
 
-✏️ Edite o sefazChecker.ts e substitua o número individual:
+#✏️ Edite o sefazChecker.ts e substitua o número individual:
 ts
 Copiar
 Editar
